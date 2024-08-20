@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+<rdf:RDF
+			 xmlns:foaf="http://xmlns.com/foaf/0.1/"
+			 xmlns:skos="http://datos.gob.es/kos/sector-publico/sector/"
+			 xmlns:dcat="http://www.w3.org/ns/dcat#"
+			 xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+			 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			 xmlns:dct="http://purl.org/dc/terms/"
+			 xmlns:dc="http://purl.org/dc/elements/1.1/"
+			 xmlns:time="http://www.w3.org/2006/time#"
+			 xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+			 xmlns:j.0="http://www.w3.org/1999/xhtml/vocab#"
+			 xmlns:j.1="http://a9.com/-/spec/opensearch/1.1/"
+			 xmlns:api="http://purl.org/linked-data/api/vocab#">
+			<dcat:Catalog rdf:about="https://datos.madrid.es/egob/catalogo">
+			
+				
+					<dct:title xml:lang="es">Catálogo de datos abiertos del Ayuntamiento de Madrid</dct:title>
+					<dct:description xml:lang="es">
+						Catálogo de datos abiertos del Ayuntamiento de Madrid
+					</dct:description>
+					<dc:language>es</dc:language>
+					<foaf:homepage rdf:resource="https://datos.madrid.es"/>
+					<dct:license rdf:resource="https://datos.madrid.es/egob/catalogo/aviso-legal"/>
+					<dct:identifier>https://datos.madrid.es/egob/catalogo</dct:identifier>
+					<dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector/" />
+					<dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01280796"/>
+					<dct:extent>
+						<dct:SizeOrDuration>
+							<rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</rdf:value>
+							<rdfs:label xml:lang="es">1</rdfs:label>
+						</dct:SizeOrDuration>
+					</dct:extent>
+					
+					
+					
+				
+				
+				
+					<dcat:dataset>
+						<dcat:Dataset rdf:about="https://datos.madrid.es/egob/catalogo/208252-0-incidencias-viapublica-mapa">
+							<dct:identifier>https://datos.madrid.es/egob/catalogo/208252-0-incidencias-viapublica-mapa</dct:identifier>
+							<dct:title xml:lang="es">Tráfico. Incidencias en vía pública. Mapa</dct:title>
+							<dct:description xml:lang="es"><![CDATA[Información relativa a las incidencias acontecidas en la ciudad de Madrid. Las incidencias se refieren a hechos ocurridos en la vía pública y que pueden afectar a la movilidad y la circulación de vehículos.   El fichero KML representa sobre el mapa, mediante un icono, la situación y el tipo de incidencia. Se actualiza casi en tiempo real, con una periodicidad de 5 minutos y puede ser visualizado por medio de Google Maps o Google Earth.   Al clicar sobre el icono, aparece un cajetín de texto con la incidencia, localización y fecha de inicio y fin.  Se detalla con precisión el tipo de incidencia, tanto si es de carácter previsto como imprevisto. El catálogo es muy extenso, siendo las más habituales las relacionadas con obras (obras en la vía, obras de mantenimiento, operación asfalto, etc.), alertas o previsión de incidencias tales como cortes de carriles, eventos (deportivos o de otra índole, manifestaciones, etc.) y accidentes de tráfico.   Hay que señalar que también se incluyen los escenarios del protocolo de actuación por episodios de contaminación debido a su repercusión en la movilidad urbana. Su activación supone una serie de actuaciones, recomendaciones y promoción del transporte público.   Existe en el Portal de Datos Abiertos el siguiente conjunto de datos complementario que presenta la información en formato XML:      Tráfico. Incidencias en vía pública      En el apartado &ldquo; Documentación asociada &rdquo; se proporciona un documento explicativo para poder interpretar correctamente los diversos campos del conjunto de datos. También se incluyen recomendaciones de uso e información adicional para facilitar su comprensión.   Esta información se puede visualizar, junto con el resto de información de tráfico de la ciudad de Madrid, en el portal Informo:  https://informo.madrid.es]]></dct:description>
+							<dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/transporte" />
+							<dcat:keyword xml:lang="es">tráfico incidencias via pública Obras accidente alerta evento , TranspaTrafico , TranspaMovilidad</dcat:keyword>					
+							<dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-08T00:00:00</dct:issued>
+							<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-08T00:00:00</dct:modified>
+							
+							
+								<dct:accrualPeriodicity>
+									<dct:Frequency>
+										<rdfs:label>tiemporeal</rdfs:label>
+										<rdf:value>
+											<time:DurationDescription>
+												<rdfs:label>tiemporeal</rdfs:label>
+												<time:days rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</time:days>
+											</time:DurationDescription>
+										</rdf:value>
+									</dct:Frequency>
+								</dct:accrualPeriodicity>
+							
+							<dc:language>es</dc:language>
+							<dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01280796"/>
+							<dct:license rdf:resource="https://datos.madrid.es/egob/catalogo/aviso-legal"/>
+							
+							
+							
+							<dcat:distribution>
+  <dcat:Distribution>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/208252-0-incidencias-viapublica-mapa.kml</dcat:accessURL>
+    <dcat:mediaType>application/vnd.google-earth.kml+xml</dcat:mediaType>
+  </dcat:Distribution>
+</dcat:distribution>
+
+						</dcat:Dataset>
+					</dcat:dataset>
+				
+				
+				
+					<dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-12T09:00:00</dct:issued>
+					
+								
+				
+			</dcat:Catalog>			 
+		</rdf:RDF>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+<rdf:RDF
+			 xmlns:foaf="http://xmlns.com/foaf/0.1/"
+			 xmlns:skos="http://datos.gob.es/kos/sector-publico/sector/"
+			 xmlns:dcat="http://www.w3.org/ns/dcat#"
+			 xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+			 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			 xmlns:dct="http://purl.org/dc/terms/"
+			 xmlns:dc="http://purl.org/dc/elements/1.1/"
+			 xmlns:time="http://www.w3.org/2006/time#"
+			 xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+			 xmlns:j.0="http://www.w3.org/1999/xhtml/vocab#"
+			 xmlns:j.1="http://a9.com/-/spec/opensearch/1.1/"
+			 xmlns:api="http://purl.org/linked-data/api/vocab#">
+			<dcat:Catalog rdf:about="https://datos.madrid.es/egob/catalogo">
+			
+				
+					<dct:title xml:lang="es">Catálogo de datos abiertos del Ayuntamiento de Madrid</dct:title>
+					<dct:description xml:lang="es">
+						Catálogo de datos abiertos del Ayuntamiento de Madrid
+					</dct:description>
+					<dc:language>es</dc:language>
+					<foaf:homepage rdf:resource="https://datos.madrid.es"/>
+					<dct:license rdf:resource="https://datos.madrid.es/egob/catalogo/aviso-legal"/>
+					<dct:identifier>https://datos.madrid.es/egob/catalogo</dct:identifier>
+					<dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector/" />
+					<dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01280796"/>
+					<dct:extent>
+						<dct:SizeOrDuration>
+							<rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</rdf:value>
+							<rdfs:label xml:lang="es">1</rdfs:label>
+						</dct:SizeOrDuration>
+					</dct:extent>
+					
+					
+					
+				
+				
+				
+					<dcat:dataset>
+						<dcat:Dataset rdf:about="https://datos.madrid.es/egob/catalogo/300110-0-accidentes-bicicleta">
+							<dct:identifier>https://datos.madrid.es/egob/catalogo/300110-0-accidentes-bicicleta</dct:identifier>
+							<dct:title xml:lang="es">Accidentes de tráfico con implicación de bicicletas</dct:title>
+							<dct:description xml:lang="es"><![CDATA[Accidentes de tráfico en la Ciudad de Madrid registrados por Policía Municipal,  donde está implicada al menos una bicicleta.      IMPORTANTE:       Se incluye  un registro por persona implicada  en el accidente .    En el año  2019 y posteriores:     La  estructura de datos varía  respecto a los años anteriores. El detalle de estas estructuras está disponible en el apartado 'Documentación Asociada'   No se incluyen registros de testigos.       Los  ficheros de 2010 a 2018  solo registran los accidentes con heridos o con daños al patrimonio municipal.   Los  datos publicados  son  provisionales hasta seis meses después del año vencido.    Actualmente no se dispone de datos por barrio.      Este portal también ofrece dos conjuntos de datos con información relacionada como son:       Accidentes de tráfico de la Ciudad de Madrid  (incluye datos de atestados/partes de accidente por distrito y año)    Datos estadísticos de actuaciones de la Policía Municipal]]></dct:description>
+							<dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/transporte" />
+							<dcat:keyword xml:lang="es">seguridad,circulación,vial,señalización,siniestralidad, tránsito,siniestro,incidente,ciclista, accidentalidad, bici</dcat:keyword>					
+							<dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-10T10:26:19</dct:issued>
+							<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-20T12:49:20</dct:modified>
+							
+							
+								<dct:accrualPeriodicity>
+									<dct:Frequency>
+										<rdfs:label>mensual</rdfs:label>
+										<rdf:value>
+											<time:DurationDescription>
+												<rdfs:label>mensual</rdfs:label>
+												<time:months rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</time:months>
+											</time:DurationDescription>
+										</rdf:value>
+									</dct:Frequency>
+								</dct:accrualPeriodicity>
+							
+							<dc:language>es</dc:language>
+							<dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01280796"/>
+							<dct:license rdf:resource="https://datos.madrid.es/egob/catalogo/aviso-legal"/>
+							
+							
+							
+							<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2024</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-28-accidentes-bicicleta.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>87040</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2024</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-29-accidentes-bicicleta.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>59392</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2023</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-26-accidentes-bicicleta.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>204800</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2023</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-27-accidentes-bicicleta.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>124928</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2022</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-24-accidentes-bicicleta.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>200704</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2022</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-25-accidentes-bicicleta.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>116736</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2021</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-22-accidentes-bicicleta.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>193536</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2021</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-23-accidentes-bicicleta.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>113664</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2020</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-20-accidentes-bicicleta.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>211968</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2020</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-21-accidentes-bicicleta.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>122880</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2019</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-18-accidentes-bicicleta.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>200704</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2019</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-19-accidentes-bicicleta.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>117760</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2018</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-2-accidentes-bicicleta.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>262144</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2018</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-3-accidentes-bicicleta.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>96256</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-0-accidentes-bicicleta.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>283648</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-1-accidentes-bicicleta.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>107520</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-4-accidentes-bicicleta.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>283648</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-5-accidentes-bicicleta.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>106496</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-6-accidentes-bicicleta.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>280576</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-7-accidentes-bicicleta.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>106496</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2014</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-8-accidentes-bicicleta.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>262144</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2014</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-9-accidentes-bicicleta.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>99328</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2013</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-10-accidentes-bicicleta.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>211968</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2013</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-11-accidentes-bicicleta.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>81920</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2012</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-12-accidentes-bicicleta.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>192512</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2012</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-13-accidentes-bicicleta.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>75776</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2011</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-14-accidentes-bicicleta.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>164864</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2011</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-15-accidentes-bicicleta.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>67584</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2010</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-16-accidentes-bicicleta.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>27720704</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2010</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300110-17-accidentes-bicicleta.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>52224</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+
+						</dcat:Dataset>
+					</dcat:dataset>
+				
+				
+				
+					<dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-12T09:00:00</dct:issued>
+					
+								
+				
+			</dcat:Catalog>			 
+		</rdf:RDF>

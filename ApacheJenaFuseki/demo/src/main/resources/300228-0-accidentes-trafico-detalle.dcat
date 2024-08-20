@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+<rdf:RDF
+			 xmlns:foaf="http://xmlns.com/foaf/0.1/"
+			 xmlns:skos="http://datos.gob.es/kos/sector-publico/sector/"
+			 xmlns:dcat="http://www.w3.org/ns/dcat#"
+			 xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+			 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			 xmlns:dct="http://purl.org/dc/terms/"
+			 xmlns:dc="http://purl.org/dc/elements/1.1/"
+			 xmlns:time="http://www.w3.org/2006/time#"
+			 xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+			 xmlns:j.0="http://www.w3.org/1999/xhtml/vocab#"
+			 xmlns:j.1="http://a9.com/-/spec/opensearch/1.1/"
+			 xmlns:api="http://purl.org/linked-data/api/vocab#">
+			<dcat:Catalog rdf:about="https://datos.madrid.es/egob/catalogo">
+			
+				
+					<dct:title xml:lang="es">Catálogo de datos abiertos del Ayuntamiento de Madrid</dct:title>
+					<dct:description xml:lang="es">
+						Catálogo de datos abiertos del Ayuntamiento de Madrid
+					</dct:description>
+					<dc:language>es</dc:language>
+					<foaf:homepage rdf:resource="https://datos.madrid.es"/>
+					<dct:license rdf:resource="https://datos.madrid.es/egob/catalogo/aviso-legal"/>
+					<dct:identifier>https://datos.madrid.es/egob/catalogo</dct:identifier>
+					<dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector/" />
+					<dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01280796"/>
+					<dct:extent>
+						<dct:SizeOrDuration>
+							<rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</rdf:value>
+							<rdfs:label xml:lang="es">1</rdfs:label>
+						</dct:SizeOrDuration>
+					</dct:extent>
+					
+					
+					
+				
+				
+				
+					<dcat:dataset>
+						<dcat:Dataset rdf:about="https://datos.madrid.es/egob/catalogo/300228-0-accidentes-trafico-detalle">
+							<dct:identifier>https://datos.madrid.es/egob/catalogo/300228-0-accidentes-trafico-detalle</dct:identifier>
+							<dct:title xml:lang="es">Accidentes de tráfico de la Ciudad de Madrid</dct:title>
+							<dct:description xml:lang="es"><![CDATA[Accidentes de tráfico en la Ciudad de Madrid registrados por la Policía Municipal.     IMPORTANTE:       Se incluye  un registro por persona implicada  en el accidente .     En el año  2019 y posteriores:      La   estructura de datos varía   respecto a los años anteriores. El detalle de estas estructuras está disponible en el apartado 'Documentación Asociada'     No se incluyen registros de testigos        Los  ficheros de 2010 a 2018  solo registran los accidentes con heridos o con daños al patrimonio municipal.   Los  datos publicados  son  provisionales hasta seis meses después del año vencido.     Actualmente no se dispone de datos por barrio.      Este portal también ofrece dos conjuntos de datos con información relacionada como son:      Datos estadísticos de actuaciones de la Policía Municipal  (incluye datos de atestados/partes de accidente por distrito y año)     Accidentes de tráfico con implicación de bicicletas       A través del Portal de Visualizaciones ' Visualiza Madrid con Datos Abiertos' , el Ayuntamiento de Madrid pone a tu disposición una visualización realizada con datos abiertos de accidentes de tráfico de la Ciudad de Madrid.            Acceder a la visualización de accidentes de tráfico]]></dct:description>
+							<dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/transporte" />
+							<dcat:keyword xml:lang="es">Seguridad, circulación, vial, señalización, siniestralidad, tránsito, siniestro, incidente,  choque, atropello, ciclista, bici, motocicleta.</dcat:keyword>					
+							<dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-04T10:11:34</dct:issued>
+							<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-20T12:37:18</dct:modified>
+							
+							
+								<dct:accrualPeriodicity>
+									<dct:Frequency>
+										<rdfs:label>mensual</rdfs:label>
+										<rdf:value>
+											<time:DurationDescription>
+												<rdfs:label>mensual</rdfs:label>
+												<time:months rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</time:months>
+											</time:DurationDescription>
+										</rdf:value>
+									</dct:Frequency>
+								</dct:accrualPeriodicity>
+							
+							<dc:language>es</dc:language>
+							<dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01280796"/>
+							<dct:license rdf:resource="https://datos.madrid.es/egob/catalogo/aviso-legal"/>
+							
+							
+							
+							<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2024</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-28-accidentes-trafico-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>4299776</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2024</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-29-accidentes-trafico-detalle.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>2185216</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2023</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-26-accidentes-trafico-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>10167296</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2023</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-27-accidentes-trafico-detalle.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>5054464</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2022</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-24-accidentes-trafico-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>9940992</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2022</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-25-accidentes-trafico-detalle.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>5338112</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2021</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-22-accidentes-trafico-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>8769536</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2021</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-23-accidentes-trafico-detalle.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>4413440</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2020</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-21-accidentes-trafico-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>6823936</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2020</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-20-accidentes-trafico-detalle.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>3458048</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2019</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-19-accidentes-trafico-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>10878976</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2019</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-9-accidentes-trafico-detalle.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>5475328</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2018</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-18-accidentes-trafico-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>11439104</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2018</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-0-accidentes-trafico-detalle.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>3357696</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-17-accidentes-trafico-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>11312128</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-1-accidentes-trafico-detalle.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>3410944</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-16-accidentes-trafico-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>11086848</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-2-accidentes-trafico-detalle.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>3353600</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-15-accidentes-trafico-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>10702848</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-3-accidentes-trafico-detalle.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>3233792</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2014</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-14-accidentes-trafico-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>10634240</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2014</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-4-accidentes-trafico-detalle.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>3220480</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2013</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-13-accidentes-trafico-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>10183680</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2013</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-5-accidentes-trafico-detalle.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>3088384</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2012</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-12-accidentes-trafico-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>10241024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2012</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-6-accidentes-trafico-detalle.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>3086336</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2011</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-11-accidentes-trafico-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>10375168</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2011</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-7-accidentes-trafico-detalle.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>3129344</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2010</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-10-accidentes-trafico-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>10074112</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2010</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.madrid.es/egob/catalogo/300228-8-accidentes-trafico-detalle.xlsx</dcat:accessURL>
+    <dcat:mediaType>application/vnd.ms-excel</dcat:mediaType>
+    <dcat:byteSize>3064832</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+
+						</dcat:Dataset>
+					</dcat:dataset>
+				
+				
+				
+					<dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-12T09:00:00</dct:issued>
+					
+								
+				
+			</dcat:Catalog>			 
+		</rdf:RDF>
